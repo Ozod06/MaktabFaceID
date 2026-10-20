@@ -1,0 +1,54 @@
+# Environments & Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Databases & local storage
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded face photos (privacy & size)
+backend/photos/*
+!backend/photos/.gitkeep
+
+# InsightFace / ML models
+.insightface/
+models/buffalo_s/
+*.onnx
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
